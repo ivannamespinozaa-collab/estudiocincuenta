@@ -286,12 +286,12 @@ function Contact() {
           <Stamp className="contact-stamp"><div><small>Correo</small><a href="mailto:50estudio@contacto.mx">50estudio@contacto.mx</a><small>Teléfono</small><a href="tel:+528234343843">823 434 3843</a><small>Redes</small><span>@50estudio</span></div></Stamp>
           <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={submit}>
             <input type="hidden" name="form-name" value="contact" />
-            <input type="hidden" name="bot-field" />
+            <p hidden><label>No llenes este campo<input name="bot-field" tabIndex={-1} autoComplete="off" /></label></p>
             <label>Nombre<input required name="name" autoComplete="name" /></label>
             <label>Correo<input required type="email" name="email" autoComplete="email" /></label>
             <label>Cuéntanos tu proyecto<textarea required name="message" /></label>
             <button className="button" type="submit" disabled={status === 'sending'}>{status === 'sending' ? 'Enviando mensaje' : 'Enviar mensaje'}</button>
-            {status === 'success' && <p className="sent-message">Gracias. Tu mensaje ya está en camino.</p>}
+            {status === 'success' && <p className="sent-message" role="status">Gracias. Tu mensaje ya está en camino.</p>}
             {status === 'error' && <p className="sent-message" role="alert">No pudimos enviar tu mensaje. Inténtalo de nuevo.</p>}
           </form>
           <Confetti active={status === 'success'} />
