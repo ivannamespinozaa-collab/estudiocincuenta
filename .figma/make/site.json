@@ -1,0 +1,10 @@
+{
+  "description": "Descubre el portafolio de 50 Estudio, un estudio mexicano de fotografía, identidad visual y juegos de mesa, y explora proyectos y servicios creativos.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

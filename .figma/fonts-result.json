@@ -1,0 +1,104 @@
+{
+  "resolved": [
+    {
+      "family": "Archivo",
+      "style": "Light",
+      "font_style": "normal",
+      "font_weight": 300,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/Archivo_wdth_wght__1"
+      }
+    },
+    {
+      "family": "Archivo",
+      "style": "Regular",
+      "font_style": "normal",
+      "font_weight": 400,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/Archivo_wdth_wght__1"
+      }
+    },
+    {
+      "family": "Archivo",
+      "style": "Thin",
+      "font_style": "normal",
+      "font_weight": 100,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/Archivo_wdth_wght__1"
+      }
+    },
+    {
+      "family": "EB Garamond",
+      "style": "Regular",
+      "font_style": "normal",
+      "font_weight": 400,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/EBGaramond_wght__1"
+      }
+    },
+    {
+      "family": "EB Garamond",
+      "style": "Italic",
+      "font_style": "italic",
+      "font_weight": 400,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/EBGaramond-Italic_wght__1"
+      }
+    },
+    {
+      "family": "EB Garamond",
+      "style": "Medium Italic",
+      "font_style": "italic",
+      "font_weight": 500,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/EBGaramond-Italic_wght__1"
+      }
+    },
+    {
+      "family": "Poppins",
+      "style": "Light",
+      "font_style": "normal",
+      "font_weight": 300,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/Poppins-Light_6"
+      }
+    },
+    {
+      "family": "Poppins",
+      "style": "Thin",
+      "font_style": "normal",
+      "font_weight": 250,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/Poppins-Thin_4"
+      }
+    },
+    {
+      "family": "Poppins",
+      "style": "ExtraLight",
+      "font_style": "normal",
+      "font_weight": 275,
+      "format": "woff2",
+      "location": {
+        "type": "url",
+        "value": "https://static.figma.com/font/Poppins-ExtraLight_4"
+      }
+    }
+  ],
+  "blocked": []
+}
