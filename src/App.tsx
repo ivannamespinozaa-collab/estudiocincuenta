@@ -17,10 +17,10 @@ const cases = {
     credit: 'Diseño de juego - Sofía Garza',
     problem: 'Los arquetipos suelen sentirse lejanos. Queríamos volverlos claros, cercanos y, sobre todo, divertidos.',
     process: 'Investigamos cada personalidad. Después, construimos un lenguaje de color e ilustración que las hace únicas sin dejar de sentirse parte de la misma familia.',
-    processImages: ['proceso-know-your-buyer-rebelde.png', 'proceso-know-your-buyer-gobernante.png'],
+    processImages: ['proceso-know-your-buyer-rebelde.webp', 'proceso-know-your-buyer-gobernante.webp'],
     result: 'Un objeto para jugar, conversar y reconocerte. Cada carta guarda una pequeña historia.',
-    hero: 'ea376.png',
-    images: ['ea8a6.png', '544b6.png', '6bf8a.png', '43044.png', '10c00.png', 'f9946.png', '2454e.png', '8d5d7.png'],
+    hero: 'ea376.webp',
+    images: ['ea8a6.webp', '544b6.webp', '6bf8a.webp', '43044.webp', '10c00.webp', 'f9946.webp', '2454e.webp', '8d5d7.webp'],
   },
   'en-la-ciudad': {
     title: 'En la ciudad',
@@ -29,10 +29,10 @@ const cases = {
     credit: 'Fotografía lifestyle urbano - Ivanna Espinoza',
     problem: 'La ciudad suele contarse a través de sus edificios. Nos propusimos encontrar a quienes la viven y los instantes que casi siempre pasan de largo.',
     process: 'Caminamos sin prisa. Editamos cada fotografía para que los blancos, los negros y la luz construyeran una secuencia honesta.',
-    processImages: ['proceso-en-la-ciudad.png'],
+    processImages: ['proceso-en-la-ciudad.webp'],
     result: 'Una serie íntima y urbana. Monterrey aparece como escenario, memoria y personaje.',
-    hero: '6a33d.png',
-    images: ['76053.png', 'b3d6c.png', '57b1a.png', 'c2b6f.png', '0047d.png', '32592.png', 'f649f.png', 'ea31b.png', '40b4f.png'],
+    hero: '6a33d.webp',
+    images: ['76053.webp', 'b3d6c.webp', '57b1a.webp', 'c2b6f.webp', '0047d.webp', '32592.webp', 'f649f.webp', 'ea31b.webp', '40b4f.webp'],
     mono: true,
   },
   aristeo: {
@@ -42,10 +42,10 @@ const cases = {
     credit: 'Identidad visual - Ivanna Espinoza y Sofía Garza',
     problem: 'La hidromiel necesitaba una voz propia: artesanal sin nostalgia, mexicana sin caer en lugares comunes.',
     process: 'Exploramos símbolos, competencia, materiales y relatos. El nombre y la imagen nacieron juntos.',
-    processImages: ['proceso-aristeo.png'],
+    processImages: ['proceso-aristeo.webp'],
     result: 'Una marca viva y reconocible. Naranja encendido, azul profundo y un universo gráfico listo para crecer.',
-    hero: 'eff96.png',
-    images: ['8b738.png', '6c4df.png', 'af473.png', '64662.png', 'a95e5.png'],
+    hero: 'eff96.webp',
+    images: ['8b738.webp', '6c4df.webp', 'af473.webp', '64662.webp', 'a95e5.webp'],
   },
 } as const
 
@@ -64,7 +64,7 @@ function Link({ href, children, className = '' }: { href: string; children: Reac
 }
 
 function Logo() {
-  return <Link href="/" className="logo" aria-label="50 Estudio"><img src={`${A}logo-50-estudio.png`} alt="50 Estudio" /></Link>
+  return <Link href="/" className="logo" aria-label="50 Estudio"><img src={`${A}logo-50-estudio.webp`} alt="50 Estudio" /></Link>
 }
 
 function Header({ dark = false }: { dark?: boolean }) {
@@ -90,7 +90,7 @@ function Header({ dark = false }: { dark?: boolean }) {
 function Footer() {
   return (
     <footer>
-      <div className="footer-brand"><img className="footer-logo" src={`${A}logo-50-estudio.png`} alt="50 Estudio" /><p>Instantes reales.<br />Recuerdos extraordinarios.</p></div>
+      <div className="footer-brand"><img className="footer-logo" src={`${A}logo-50-estudio.webp`} alt="50 Estudio" /><p>Instantes reales.<br />Recuerdos extraordinarios.</p></div>
       <div><strong>Explora</strong>{routes.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}</div>
       <div><strong>Dirección</strong><p>Monterrey, N.L.<br />México</p></div>
       <div><strong>Contacto</strong><a href="mailto:50estudio@contacto.mx">50estudio@contacto.mx</a><a href="tel:+528234343843">+52 823 434 3843</a><a href="https://instagram.com/50estudio">Instagram · @50estudio</a></div>
@@ -118,8 +118,8 @@ function Home() {
       <Header dark />
       <main className="home">
         <section className="home-hero">
-          <img src={`${A}ed468.png`} alt="Paisaje verde bajo un cielo nublado" />
-          <div className="hero-wordmark"><img src={`${A}logo-50-estudio.png`} alt="50 Estudio" /></div>
+          <img src={`${A}ed468.webp`} alt="Paisaje verde bajo un cielo nublado" />
+          <div className="hero-wordmark"><img src={`${A}logo-50-estudio.webp`} alt="50 Estudio" /></div>
         </section>
 
         <section className="featured cream-section">
@@ -127,11 +127,11 @@ function Home() {
           <h2>Proyectos <em>Destacados</em></h2>
           <div className="featured-grid">
             <Link href="/proyectos/know-your-buyer" className="framed-project oval">
-              <span>01</span><div><img className="photo" src={`${A}6bf8a.png`} alt="Juego Know Your Buyer" /><img className="frame" src={`${A}9d95b.png`} alt="" /></div>
+              <span>01</span><div><img className="photo" src={`${A}6bf8a.webp`} alt="Juego Know Your Buyer" /><img className="frame" src={`${A}9d95b.webp`} alt="" /></div>
               <h3>Know Your Buyer</h3><small>Diseño de juego · 2026</small>
             </Link>
             <Link href="/proyectos/en-la-ciudad" className="framed-project">
-              <span>02</span><div><img className="photo" src={`${A}c2b6f.png`} alt="Fotografía urbana en blanco y negro" /><img className="frame" src={`${A}87241.png`} alt="" /></div>
+              <span>02</span><div><img className="photo" src={`${A}c2b6f.webp`} alt="Fotografía urbana en blanco y negro" /><img className="frame" src={`${A}87241.webp`} alt="" /></div>
               <h3>En la ciudad</h3><small>Fotografía · 2026</small>
             </Link>
           </div>
@@ -163,17 +163,17 @@ function Home() {
 
 function Manifesto() {
   const people = [
-    ['a6e77.png', 'Ivanna Espinoza', 'Dirección creativa'],
-    ['7354c.png', 'Sofía Garza', 'Producción creativa'],
-    ['22533.png', 'Camila Legaspi', 'Fotografía'],
-    ['3aad9.png', 'Alan Cantú', 'Programación'],
+    ['a6e77.webp', 'Ivanna Espinoza', 'Dirección creativa'],
+    ['7354c.webp', 'Sofía Garza', 'Producción creativa'],
+    ['22533.webp', 'Camila Legaspi', 'Fotografía'],
+    ['3aad9.webp', 'Alan Cantú', 'Programación'],
   ]
   return (
     <>
       <Header dark />
       <main>
         <section className="manifesto-title"><h1>Manifiesto</h1></section>
-        <section className="manifesto-photo"><img src={`${A}c1054.png`} alt="Escena urbana en blanco y negro" /><p>Instantes reales. Recuerdos extraordinarios.</p></section>
+        <section className="manifesto-photo"><img src={`${A}c1054.webp`} alt="Escena urbana en blanco y negro" /><p>Instantes reales. Recuerdos extraordinarios.</p></section>
         <section className="team cream-section"><h2>Nuestro <em>equipo</em></h2><div className="team-grid">{people.map(([img, name, role]) => <article key={name}><Stamp><img src={`${A}${img}`} alt={name} /><h3>{name}</h3><p>{role}</p></Stamp></article>)}</div></section>
         <section className="values cream-section"><h2>Nuestros <em>valores</em></h2><div className="diagonal wine reveal">Curiosidad</div><div className="diagonal berry reveal">Atención al detalle</div><div className="diagonal peach reveal">Responsabilidad</div></section>
         <section className="disciplines"><h2>Disciplinas</h2><Stamp><b>[</b><ul><li>Fotografía</li><li>Identidad visual</li><li>Diseño de juego</li></ul><b>]</b></Stamp></section>
@@ -186,9 +186,9 @@ function Manifesto() {
 
 type Project = { slug: CaseKey; title: string; cat: string; year: string; img: string; desc: string }
 const projects: Project[] = [
-  { slug: 'en-la-ciudad', title: 'En la ciudad', cat: 'Fotografía', year: '2026', img: '76053.png', desc: 'Historias que aparecen cuando caminas sin prisa.' },
-  { slug: 'aristeo', title: 'Aristeo', cat: 'Identidad', year: '2026', img: 'eff96.png', desc: 'Naming e identidad para una hidromiel mexicana.' },
-  { slug: 'know-your-buyer', title: 'Know Your Buyer', cat: 'Juego de mesa', year: '2026', img: 'ea376.png', desc: 'Arquetipos ilustrados para jugar y reconocerte.' },
+  { slug: 'en-la-ciudad', title: 'En la ciudad', cat: 'Fotografía', year: '2026', img: '76053.webp', desc: 'Historias que aparecen cuando caminas sin prisa.' },
+  { slug: 'aristeo', title: 'Aristeo', cat: 'Identidad', year: '2026', img: 'eff96.webp', desc: 'Naming e identidad para una hidromiel mexicana.' },
+  { slug: 'know-your-buyer', title: 'Know Your Buyer', cat: 'Juego de mesa', year: '2026', img: 'ea376.webp', desc: 'Arquetipos ilustrados para jugar y reconocerte.' },
 ]
 
 function Projects() {
